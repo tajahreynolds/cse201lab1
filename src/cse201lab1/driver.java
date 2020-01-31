@@ -14,11 +14,23 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-
 public class driver {
 	
 	public static void main(String[] args) {
-		
+		// Testing readFile method, works as intended
+		// TODO: read files from local directory instead of user specific (my) directory
+//		File boyNames = new File("C:\\Users\\tjrey\\OneDrive\\Documents\\dev\\cse201\\cse201lab1\\src\\BoyNames.txt");
+//		File girlNames = new File("C:\\Users\\tjrey\\OneDrive\\Documents\\dev\\cse201\\cse201lab1\\src\\GirlNames.txt");
+//		
+//		ArrayList<String> boyList = readFile(boyNames);
+//		for (int i =0 ; i < 10; i++) {
+//			System.out.println(boyList.get(i));
+//		}
+//		System.out.println();
+//		ArrayList<String> girlList = readFile(girlNames);
+//		for (int i =0 ; i < 10; i++) {
+//			System.out.println(girlList.get(i));
+//		}
 	}
 	
 	/**
@@ -41,5 +53,5 @@ public class driver {
 		
 		return namesList;
 	}
-
+	
 }
